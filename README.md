@@ -72,3 +72,28 @@ condition to an unsafe condition, the system records the:
 - Measured value
 - RTC time
 - Date
+
+## 🔐 Password-Protected Edit Mode
+
+The system provides a basic security layer before allowing modification
+of system parameters.
+
+When Switch1 is pressed, an external interrupt is triggered and the
+system enters the password verification stage.
+
+### Security Check
+
+1. User is prompted to enter the password through the keypad.
+2. The entered password is compared with the stored password.
+3. If the password is correct, Edit Mode is allowed.
+4. If the password is incorrect, access is denied and the wrong-attempt
+   counter is incremented.
+5. After three incorrect attempts, the system enters a locked state.
+
+## ✏️ Editable Parameters
+
+After successful password authentication, the user can modify:
+
+- RTC time
+- TEMP_THRESHOLD_VALUES
+- PASSWORD
