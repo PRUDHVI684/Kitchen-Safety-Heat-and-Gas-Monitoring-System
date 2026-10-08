@@ -97,3 +97,57 @@ After successful password authentication, the user can modify:
 - RTC time
 - TEMP_THRESHOLD_VALUES
 - PASSWORD
+
+- RTC date/day
+- Temperature threshold
+- Gas threshold
+- Password
+
+The keypad is used to navigate through the editing options.
+
+## 📊 Default Threshold Values
+
+| Parameter | Threshold |
+|-----------|-----------|
+| Temperature | 60 °C |
+| Gas | 500 ADC |
+
+> The MQ2 threshold is an application-level ADC threshold and can be
+> adjusted according to the sensor and operating environment.
+
+## 🧩 System Modules
+
+| Module | Function |
+|--------|----------|
+| ADC | Reads LM35 and MQ2 sensor values |
+| LCD | Displays sensor, RTC and system information |
+| RTC | Provides date and time |
+| Keypad | Provides user input |
+| External Interrupt | Enters Edit Mode |
+| Buzzer | Provides audible alert |
+| LED | Provides visual alert |
+| Delay | Provides timing functions |
+
+## 📁 Project Structure
+
+```text
+Kitchen-Safety-Heat-and-Gas-Monitoring-System/
+│
+├── src/
+│   ├── Embedded C source files
+│   └── Header files
+│
+├── Keil_Project/
+│   ├── kichen_safety_project.uvproj
+│   └── Startup.s
+│
+├── Circuit/
+│   └── Circuit diagram
+│
+├── Images/
+│   └── Project photographs
+│
+├── Documentation/
+│   └── Project documentation
+│
+└── README.md
