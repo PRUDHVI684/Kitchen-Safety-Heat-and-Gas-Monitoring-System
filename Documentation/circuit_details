@@ -1,0 +1,12 @@
+Component       LPC2148 Pin
+--------------------------------
+LM35            PORT0.28
+MQ2             PORT0.4
+LCD RS          PORT0.16
+LCD EN          PORT0.18
+LCD Data        PORT0.8 TO 15
+Keypad          PORT1.16 TO 23
+Switch1         EINT pin PORT0.1
+Switch2         PORT0.7
+Buzzer          PORT0.5
+LED             PORT0.6
