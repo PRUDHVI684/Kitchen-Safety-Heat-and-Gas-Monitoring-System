@@ -151,3 +151,35 @@ Kitchen-Safety-Heat-and-Gas-Monitoring-System/
 │   └── Project documentation
 │
 └── README.md
+
+| Test Condition | Expected Result |
+|----------------|-----------------|
+| Normal temperature | Normal monitoring |
+| Temperature exceeds threshold | Buzzer and LED activated |
+| Gas detected | Buzzer and LED activated |
+| Switch1 pressed | Password verification starts |
+| Correct password | Edit Mode enabled |
+| Incorrect password | Access Denied |
+| Three incorrect attempts | System Locked |
+| Threshold modified | Updated threshold used |
+| RTC modified | Updated RTC information displayed |
+
+🚀 How to Run
+1. Clone or download this repository.
+2. Open the Keil project from the Keil_Project folder.
+3. Verify that all source and header files are included.
+4. Select the LPC2148 target.
+5. Build the project in Keil.
+6. Generate the HEX file.
+7. Flash the HEX file to the LPC2148 using Flash Magic.
+8. Connect the required hardware.
+9. Power ON the system.
+10. Verify temperature, gas, RTC and alert functions.
+
+🏁 Conclusion
+The Kitchen Safety Heat and Gas Monitoring System combines temperature
+monitoring, gas detection, RTC timestamping, LCD display, keypad input,
+external interrupt handling, buzzer and LED alerts, and password-
+protected parameter editing into a single embedded safety application.
+The system is designed to provide timely indication of unsafe kitchen
+conditions and allow authorized modification of system parameters.
