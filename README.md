@@ -158,7 +158,7 @@ The following block diagram illustrates the LPC2148-based kitchen
 safety system and its connections to the sensors, RTC, LCD, keypad,
 switches, buzzer, and LED indicators.
 
-![Kitchen Safety System Block Diagram](Circuit/block_diagram.png)
+![image alt](https://github.com/PRUDHVI684/Kitchen-Safety-Heat-and-Gas-Monitoring-System/blob/50b5d00e45fd359b8792b23cf76d28eb0d2519b7/Circuit/block_diagram.png)
 
 
 | Test Condition | Expected Result |
