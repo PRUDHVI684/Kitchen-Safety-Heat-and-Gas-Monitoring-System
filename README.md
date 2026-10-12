@@ -36,7 +36,7 @@ provides a password-protected Edit Mode for modifying system parameters.
 ## 💻 Software Requirements
 
 - Embedded C
-- Keil MDK
+- Keil uvision4
 - Flash Magic
 - Proteus (if used for simulation)
 
