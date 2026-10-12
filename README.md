@@ -128,6 +128,14 @@ The keypad is used to navigate through the editing options.
 | LED | Provides visual alert |
 | Delay | Provides timing functions |
 
+## 🧱 Block Diagram
+
+The following block diagram illustrates the LPC2148-based kitchen
+safety system and its connections to the sensors, RTC, LCD, keypad,
+switches, buzzer, and LED indicators.
+
+![image alt](https://github.com/PRUDHVI684/Kitchen-Safety-Heat-and-Gas-Monitoring-System/blob/50b5d00e45fd359b8792b23cf76d28eb0d2519b7/Circuit/block_diagram.png)
+
 ## 📁 Project Structure
 
 ```text
@@ -151,14 +159,6 @@ Kitchen-Safety-Heat-and-Gas-Monitoring-System/
 │   └── Project documentation
 │
 └── README.md
-
-## 🧱 Block Diagram
-
-The following block diagram illustrates the LPC2148-based kitchen
-safety system and its connections to the sensors, RTC, LCD, keypad,
-switches, buzzer, and LED indicators.
-
-![image alt](https://github.com/PRUDHVI684/Kitchen-Safety-Heat-and-Gas-Monitoring-System/blob/50b5d00e45fd359b8792b23cf76d28eb0d2519b7/Circuit/block_diagram.png)
 
 
 | Test Condition | Expected Result |
